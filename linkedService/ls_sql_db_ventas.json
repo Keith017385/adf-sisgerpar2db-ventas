@@ -1,0 +1,17 @@
+{
+	"name": "ls_sql_db_ventas",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sql-server-ucb-par2.database.windows.net",
+			"database": "db-ventas",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "melani",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDdDM0I2N0FCLUU1QTktNEZBNi1BRUEzLTZEQTg2RkNFNjkwMF9mN2UwNzY3NS1lYzJiLTQ5NTktODM2ZC00ZmJiMjg2NDhjNTMiDQp9"
+		}
+	}
+}
